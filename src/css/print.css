@@ -1,0 +1,59 @@
+.display,
+form,
+.top-headline,
+.speiseplan-anfrage,
+#menu-calculate,
+#list-generation,
+.print-result,
+#show-menu{
+    display: none!important;
+}
+
+
+.print{
+    display: block;
+}
+
+
+.popover-print{
+    clear: both;
+}
+
+.popover-print .popover-header,
+.popover-print img{
+    display: none;
+}
+
+.popover-print .list.list--preparation dt{
+    margin-right: 1rem;
+}
+
+.popover-print .list.list--preparation{
+    float: none!important;
+    display: inline-block;
+    max-width: 55%;
+}
+
+.result-text.print .img-fluid{
+    max-width: 40%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.popover-print .ingredients{
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    max-width: 30%;
+}
+
+.popover-body > p.popover-headline{
+    padding-top: 1rem;
+}
+
+.pagebreak {
+    break-after: always;
+}
+
+

@@ -1,0 +1,81 @@
+<article class="article">
+    <form class="form article-form form--modal w-100 p-0 gridContainer" novalidate id="form">
+        <div class="form__row row mb-5">
+            <div class="col col-firstname">
+                <label for="vorname">Vorname</label>
+                <input type="text" class="form-control" id="vorname" name="vorname" placeholder="Vorname">
+            </div>
+            <div class="col col-firstname">
+                <label for="nachname">Nachname</label>
+                <input type="text" class="form-control" id="nachname" name="nachname" placeholder="Nachname">
+            </div>
+        </div>
+        <div class="form__row row mb-5">
+            <div class="col col-firstname">
+                <label for="gewicht">Gewicht</label> <input type="text" class="form-control" id="gewicht" name="gewicht" placeholder="Gewicht">
+            </div>
+            <div class="col col-firstname">
+                <label for="grosse">Größe</label> <input type="text" class="form-control" id="grosse" name="grosse" placeholder="Größe">
+            </div>
+        </div>
+        <div class="form__row row mb-5">
+            <div class="col col-firstname">
+                <label for="alter">Alter</label> <input type="text" class="form-control" id="alter" name="alter" placeholder="Alter">
+            </div>
+            <div class="col col-firstname">
+                <label for="geschlecht">Geschlecht</label> <select class="form-control" id="geschlecht" name="geschlecht">
+                <option value="weiblich" selected>Weiblich</option>
+                <option value="maennlich">Männlich</option>
+            </select>
+            </div>
+        </div>
+        <div class="form__row row mb-5 min-height-checkboxes">
+            <div class="col col-firstname">
+                <div class="row">
+                    <label class="col-form-label col-sm-2 pt-0">Aktivität</label>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="radiobutton" type="radio" name="aktivitaet" id="mangel" value="1" checked="checked"> <label class="form-check-label" for="mangel"> Bewegungsmangel </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="radiobutton" type="radio" name="aktivitaet" id="massige" value="2"> <label class="form-check-label" for="massige"> Mäßige Aktivität </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="radiobutton" type="radio" name="aktivitaet" id="mittlere" value="3"> <label class="form-check-label" for="mittlere"> Mittlere Aktivität </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="radiobutton" type="radio" name="aktivitaet" id="sehrAktive" value="4"> <label class="form-check-label" for="sehrAktive"> sehr aktive </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="radiobutton" type="radio" name="aktivitaet" id="sportler" value="5"> <label class="form-check-label" for="sportler"> Sportler </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-firstname">
+                <div class="row">
+                    <label class="col-form-label col-sm-4 pt-0">gewünschtes Ergebnis</label>
+                    <div class="col-sm-8">
+                        <div class="form-check">
+                            <input class="radiobutton" type="radio" name="ergebnis" id="zunehmen" value="1"> <label class="form-check-label" for="zunehmen"> zunehmen </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="radiobutton" type="radio" name="ergebnis" id="abnehmen" value="2"> <label class="form-check-label" for="abnehmen"> abnehmen </label>
+                        </div>
+                        <div class="form-check disabled">
+                            <input class="radiobutton" type="radio" name="ergebnis" id="bleiben" value="3" > <label class="form-check-label" for="bleiben">Gewicht lassen</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__row row mb-5">
+            <div class="col col-firstname">
+                <button class="btn btn-danger" type="reset">Reset</button>
+            </div>
+            <div class="col col-firstname text-right">
+                <button class="btn btn-success" type="submit">Kalorien berechnen</button>
+            </div>
+        </div>
+    </form>
+</article>
